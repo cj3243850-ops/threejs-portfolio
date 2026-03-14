@@ -24,47 +24,47 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Game Tester 01',
+    position: 'Alpha Tester @ TenGen Parkour',
+    img: '/CJ.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'The movement mechanics in TenGen Parkour are insanely fluid. The way CJ optimized the level design and player controller in Unity shows a deep understanding of gameplay loops.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: '3D Art Community',
+    position: 'Peer Feedback',
+    img: '/CJ.png',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'That Q-Ship model is a masterpiece. The attention to detail on the wireframe topology, technical shader node graphs, and texture painting in Blender is top-tier industry standard work.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'System Logs',
+    position: 'Arch Linux / Nobara User',
+    img: '/CJ.png',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'Compiling shaders and rendering high-fidelity lighting studies on an RTX 2050 like a breeze. The workflow optimization from 3D modeling to game engine integration is solid.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'Dev Team',
+    position: 'ThroneLeaf Games',
+    img: '/CJ.png',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'As a founder and lead developer, CJ brings an incredible vision. Handling everything from 3D environment architecture to 2D logic scripting in Run & Fight requires serious dedication.',
   },
 ];
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'TenGen Parkour - 3D Action Game',
+    desc: 'TenGen Parkour is a fast-paced action game focusing on fluid movement, dynamic level design, and precise character mechanics.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+      'Built entirely in Unity, this project showcases advanced C# scripting, environment detailing, and custom physics interactions to deliver an adrenaline-pumping experience.',
+    href: '#',
+    texture: '/15.mp4', // Tera gameplay reel
+    logo: '/CJ.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -72,36 +72,18 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight1.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'Unity', path: '/assets/react.svg' }, // We'll swap these icons later
+      { id: 2, name: 'C#', path: '/assets/typescript.png' },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Q-Ship - Sci-Fi Concept',
+    desc: 'A high-fidelity 3D spacecraft model demonstrating advanced hard-surface modeling, complex node-based shaders, and precise UV layouts.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+      '100% modeled, UV unwrapped, and texture-painted in Blender. Rendered with cinematic lighting techniques to achieve a photorealistic beauty shot.',
+    href: '#',
+    texture: '/5.jpg', // Q-ship beauty render
+    logo: '/CJ.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -109,36 +91,18 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight2.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'Blender', path: '/assets/react.svg' },
+      { id: 2, name: 'Texturing', path: '/assets/tailwindcss.png' },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Robotic Mechanics - Bipedal Design',
+    desc: 'A detailed study of hard-surface robotics, focusing on mechanical joints, hydraulic systems, and piston movement for game-ready assets.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+      'Optimized for game engines, featuring quad-view technical sheets and intricate structural detailing for realistic mechanical animation.',
+    href: '#',
+    texture: '/69.png', // Ortho view
+    logo: '/CJ.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -148,36 +112,17 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight3.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'Blender', path: '/assets/react.svg' },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Run & Fight - 2D Logic System',
+    desc: 'A comprehensive 2D game environment showcasing custom UI settings, sprite animations, and robust logic blocks for gameplay.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+      'Features a complete level design layout and functional scripting blocks, demonstrating versatility across both 3D and 2D game development pipelines.',
+    href: '#',
+    texture: '/43.png', // Gameplay scene
+    logo: '/CJ.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -185,36 +130,17 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight4.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'Unity 2D', path: '/assets/react.svg' },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Sci-Fi Tower - Environment Art',
+    desc: 'An atmospheric lighting study and environment design piece featuring a massive sci-fi tower with a cinematic earth view.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+      'Showcases the ability to create massive scales and moody lighting setups, perfect for establishing the visual tone of a game level.',
+    href: '#',
+    texture: '/9.png', // Sci-Fi Tower render
+    logo: '/CJ.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -222,26 +148,7 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight5.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'Environment', path: '/assets/react.svg' },
     ],
   },
 ];
@@ -260,29 +167,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'ThroneLeaf Games',
+    pos: 'Founder & Lead Developer',
+    duration: 'Present',
+    title: "Leading the development of TenGen Parkour. Overseeing the complete project vision, from 3D asset creation and level design to complex C# game mechanics.",
+    icon: '/CJ.png', // Placeholder for your company logo
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Blender',
+    pos: '3D Artist',
+    duration: 'Ongoing',
+    title: "Creating optimized, game-ready models. Expertise in high-poly to low-poly baking, advanced UV unwrapping, node-based shaders, and stylized texture painting.",
+    icon: '/assets/figma.svg', // Will swap to blender icon later
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Unity',
+    pos: 'Game Developer',
+    duration: 'Ongoing',
+    title: "Implementing engaging gameplay loops, UI/UX systems, and complex character controllers. Bridging the gap between 3D art and interactive experiences.",
+    icon: '/assets/notion.svg', // Will swap to unity icon later
     animation: 'salute',
   },
 ];
